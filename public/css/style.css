@@ -1,0 +1,102 @@
+body{
+	background-image: url('../img/scene-placeholder.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size:cover;
+	min-height: 800px;
+	min-width: 600px;
+	width: auto;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	font-family:"Helvetica", sans-serif;
+	color: #000;
+}
+
+.phone{
+	position: relative;
+	background-image: url('../img/phone-placeholder.png');
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	margin: auto;
+	width: 572;
+	height: 100%;
+}
+
+.screen{
+	background-image: url('../img/screenshot-placeholder.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	position: absolute;
+	bottom: 251;
+	left: 195;
+	width: 240;
+	height: 426;
+  color: transparent;
+}
+
+.screen.pair{
+  background-image: none;
+  background-color: rgb(232,232,232);
+  color: black;
+  text-align: center;
+}
+
+.screen.pair .code{
+  font-size: 3em;
+  color: rgb(51,51,51);
+}
+
+.screen.pair .text{
+  font-size: 0.9em;
+  color: rgb(112,112,112);
+  
+}
+
+.screen.highlight{
+	box-shadow: 0px 0px 10px 6px rgba(10,18,250,0.8)
+}
+
+.glare{
+	background-image: url('../img/phone-glare.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	position: absolute;
+	bottom: 0;
+	width: 572;
+	height: 768;
+}
+
+footer{
+	position: absolute;
+	right:20px;
+	bottom: 20px;
+	width: 260px;
+	color: #fff;
+}
+
+#instructions{
+	font-size: 1.2em;
+	font-weight: 100;
+	text-align: right;
+}
+
+#qr{
+	float: right;
+	padding-left:10px;
+}
+
+.nowrap{
+	white-space: nowrap;
+}
+
+
+#debug{
+  display: none;
+  position: absolute;
+  top: 10px; 
+  left: 10px;
+  cursor: hand;
+}

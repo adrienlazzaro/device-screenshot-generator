@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>http://ued-scream.linkedin.biz/shared/Mobile/Phone/Phone_Generation%203/x%20Misc/LinkedTinder_apr19hackday/app/LinkedTinder.ipa</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>full-size-image</string>
+					<key>needs-shine</key>
+					<false/>
+					<key>url</key>
+					<string>http://eat1-qa18.corp.linkedin.com:8080/view/MOBILE_TEAM_BUILDS/job/MOBILE_IOS6_DISTRIBUTION/2259/artifact/output//LinkedIn-512x512.jpg</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>display-image</string>
+					<key>needs-shine</key>
+					<false/>
+					<key>url</key>
+					<string>http://eat1-qa18.corp.linkedin.com:8080/view/MOBILE_TEAM_BUILDS/job/MOBILE_IOS6_DISTRIBUTION/2259/artifact/output/LinkedIn-57x57.png</string>
+				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>com.linkedin.linkedtinder</string>
+				<key>bundle-version</key>
+				<string>1.0</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>subtitle</key>
+				<string>the reckoning</string>
+				<key>title</key>
+				<string>LinkedTinder</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
+
